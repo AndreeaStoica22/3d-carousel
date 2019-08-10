@@ -1,0 +1,37 @@
+body {
+  background-color: #333;
+  -webkit-perspective: 500px;
+          perspective: 500px;
+  height: 100vh;
+}
+
+#carousel {
+  width: 800px;
+  height: 800px;
+  background-color: #413946;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transform: rotateX(70deg);
+          transform: rotateX(70deg);
+  -webkit-perspective: 500px;
+          perspective: 500px;
+}
+
+#carousel figure {
+  -webkit-transform: rotateX(-45deg) scaleY(3);
+          transform: rotateX(-45deg) scaleY(3);
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  position: absolute;
+}
+
+#carousel figure:nth-child(1) .reflection {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+/*# sourceMappingURL=style.css.map */

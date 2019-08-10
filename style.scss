@@ -1,0 +1,35 @@
+$color-dark:#333;
+body{
+    background-color: $color-dark;
+    perspective: 500px;
+    height: 100vh;
+}
+#carousel{
+    width: 800px;
+    height: 800px;
+    background-color: rgb(65, 57, 70);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: rotateX(70deg);
+    perspective: 500px;
+
+
+ figure{
+    // display: none;
+    transform: rotateX(-45deg) scaleY(3);
+    transform-origin: bottom;
+    position: absolute;
+    
+
+    &:nth-child(1) .reflection{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+
+}
+}
